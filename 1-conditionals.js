@@ -6,16 +6,13 @@
 //else alert no such flavor
 flavor = prompt('Please enter the kind of ice cream you want either vanilla chocalate or strawberry')
 
-if (flavor == 'chocalate'){
-	alert('you have selected chocalate')
+if (flavor == 'chocalate' || flavor == 'strawberry'){
+	alert('you have selected '+flavor);
 	
 }
-else if (flavor == 'strawberry'){
-	alert('You have selected Strawberry')
-}
 else if (flavor == 'vanilla'){
-	alert('I am so sorry but all the vanilla is gone')
+	alert('I am so sorry but all th e vanilla is gone');
 }
 else{
-	alert('No such flavor exists')
+	alert('No such flavor exists');
 }
